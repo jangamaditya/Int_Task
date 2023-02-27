@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Intern Crowd</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html" class="logo">
+			<i class="fa fa-female fa-3x"></i>
+			Intern Crowd
+			</a>
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+					<ul>
+						<li><a href="index.html">Home</li>
+						<li><a href="index.html">Internships</li>
+						<li><a href="index.html">About</li>
+						<li><a href="index.html">Contact</li>
+					</ul>
+			</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+
+		<div class="text-box">
+			<h1>Enter The World Of Coding By Enrolling <br> In Our Internship Program Today!!</h1>
+			<p>"In every student, there is a power to change the world"</p>
+			<a href="" class="hero-btn">Get Started</a>
+		</div>
+	</section>
+	
+	<!-----Our Services----->
+	
+	<section class="services">
+	<h1>Services We Offer</h1>
+	<p></p>
+	
+	<div class="row">
+	<div class="course-col">
+	<img src="images/WebDevelopment.png">
+	<h3>Web Development</h3>
+	<p>Website needs to work across all devices and it needs to be fast as possible.</p>
+	</div>
+	
+	<div class="course-col">
+	<img src="images/JavaDevelopment.png">
+	<h3>Java Development</h3>
+	<p>It includes owning a particular application or working on several at one time.</p>
+	</div>
+	
+	<div class="course-col">
+	<img src="images/AppDevelopment.png">
+	<h3>Android App Develepment</h3>
+	<p>It is created for making devices running the operating systems of Android.</p>
+	</div>
+	</div>
+	
+	<div class="row">
+	<div class="course-col">
+	<img src="images/DigitalMarketing.png">
+	<h3>Digital Marketing</h3>
+	<p>It is the marketing and advertising of a business, product, or service using social media.</p>
+	</div>
+	
+	<div class="course-col">
+	<img src="images/CC++Development.png">
+	<h3>C/C++ Develepment</h3>
+	<p>It is a general-purpose programming and coding language.</p>
+	</div>
+	
+	<div class="course-col">
+	<img src="images/CloudComputing.png">
+	<h3>Cloud Computing</h3>
+	<p>It is the delivery of distinct services over the Internet.</p>
+	</div>
+	</div>
+	</section>
+	
+
+<!---------About Us----------->
+<section class="aboutus">
+<h1>About Us</h1>
+<p>You've Probably Heard About How Programming Shines With New Technology. We Have to Be Aware Of How Programming Can Initiate New Innovations. What's A Better Approach For Our Students Is to Grasp And Adapt To The Technology Around Them.</p>
+
+<div class="row">
+
+<div class="aboutus-col">
+<img src="images/founder1.jpg">
+<div>
+<p>You've Probably Heard About How Programming Shines With New Technology. We Have to Be Aware Of How Programming Can Initiate New Innovations. What's A Better Approach For Our Students Is to Grasp And Adapt To The Technology Around Them.<p>
+<h3>Prachi Patil</h3>
+<h4>Founder</h4>
+</div>
+</div>
+
+
+<div class="aboutus-col">
+<img src="images/founder2.jpg">
+<div>
+<p>You've Probably Heard About How Programming Shines With New Technology. We Have to Be Aware Of How Programming Can Initiate New Innovations. What's A Better Approach For Our Students Is to Grasp And Adapt To The Technology Around Them.<p>
+<h3>Anit Patil</h3>
+<h4>CEO</h4>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<!------------Call to action------------>
+<section class="cta">
+<h1>Apply for our Various Virtual Internships <br> Anywhere From The World</h1>
+<a href="" class="hero-btn">Contact Us</a>
+</section>
+
+
+<!------------Footer------------>
+<section class="footer">
+<h4>About Us</h4>
+<p>Intern Crowd Is An Online Coding Platform that Offers Specially Programming Courses For Students.<br> You've Probably Heard About How Programming Shines With New Technology.We Have To Be <br>Aware Of How Programming Can Initiate New Innovations. What's A Better Approach For <br>Our Students Is To Grasp And Adapt To The Technology Around Them.</p>
+<div class="icons">
+<i class="fa fa-facebook"></i>
+<i class="fa fa-twitter"></i>
+<i class="fa fa-instagram"></i>
+<i class="fa fa-linkedin"></i>
+</div>
+<p>Made with <i class="fa fa-heart-o"></i> by Intern Crowd</p>
+<section>
+	
+	
+
+<!------------Javascript to Toggle Menu------------>
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+	console.log("Show");
+	navLinks.style.right = "0";
+}
+
+
+function hideMenu(){
+	console.log("Hide");
+	navLinks.style.right = "-200px";
+}
+</script>
+</body>
+
+
+
+</html>
+
